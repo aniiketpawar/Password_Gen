@@ -17,7 +17,7 @@ def generate_password(min_length, numbers=True, special_characters=True):
     has_number =False
     has_special = False
 
-    while not meet_criteria or len(pwd) < min_length:
+    while not meet_criteria and len(pwd) < min_length:
         new_char = random.choice(characters)
         pwd += new_char
 
