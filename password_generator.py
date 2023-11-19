@@ -1,3 +1,4 @@
+# Python app to generate a password
 import random
 import string
 
